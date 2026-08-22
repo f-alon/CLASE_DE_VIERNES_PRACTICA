@@ -3,6 +3,11 @@
 # en python elevar un número a 1/2 o 0.5 da como resultado su raíz cuadrada
 #funcion para sacar raiz cuadrada de un numero recibe un numero n como parametro (invocar con raiz_cuadrada(n)):
 
+def raiz_cubica(n):
+    cubica = n ** (1/3)
+    return cubica
+
+
 def raiz_cuadrada(n):
     
     raiz = n**0.5
@@ -48,3 +53,4 @@ def inscrito(a,s):
 def circunscrito(l1,l2,l3,area_total):
     radio_circ = (l1+l2+l3)/4*area_total
     return radio_circ
+
