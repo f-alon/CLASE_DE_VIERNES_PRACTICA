@@ -10,3 +10,16 @@ El archivo hoja_funciones.py contiene funciones genericas para realizar distinto
 
 
 hoja_funciones.py se irá actualizando con el tiempo.
+
+
+Python ofrece algunas funciones built-in para facilitar la implementación de validaciones. A continuación se listan algunas de las más comunes:
+  
+* valor.isdigit()
+  Retorna True si todos los caracteres de valor son numéricos, False en caso contrario.
+  
+* valor.isalpha()
+  Retorna True si todos los caracteres de valor son alfabéticos (no numéricos), False en caso contrario.
+
+* valor.isalnum()
+  Retorna True si valor es una combinación alfanumérica (caracteres ynúmeros), False en caso contrario
+
