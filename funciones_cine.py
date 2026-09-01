@@ -22,3 +22,34 @@ ACLARACIÓN: se debe utilizar un archivo para definir las funciones y otro para 
 
 
 """
+def edad_minima_cine(edad):
+    edad = 5
+    if edad > 5:
+        mensaje = "puede pasar"
+    else:
+        mensaje = "no pasa"
+    return mensaje
+   
+def clasificacion_pelicula():
+
+
+
+
+
+def clasificacion_entrada(edad):
+    if edad > 5 and edad <= 12:
+        entrada = "infantil"
+    else:
+        if edad >= 13 and edad <= 17:
+            entrada = "adolescente"
+        else:
+            edad >= 18
+            entrada = "general"
+
+    return entrada
+
+
+
+    
+def descuento_espe():
+    pass

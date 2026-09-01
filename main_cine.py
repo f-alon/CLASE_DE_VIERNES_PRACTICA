@@ -23,5 +23,10 @@ ACLARACIÓN: se debe utilizar un archivo para definir las funciones y otro para 
 
 """
 
+import funciones_cine as f_c
 
+def main():
+    
+
+    main()
 
