@@ -23,11 +23,15 @@ ACLARACIÓN: se debe utilizar un archivo para definir las funciones y otro para 
 
 """
 def edad_minima_cine(edad):
-    edad = 5
+    edad = 0
     if edad > 5:
-        mensaje = "puede pasar"
+        min_edad = True
+        if min_edad == True:
+            mensaje = "puede pasar"
     else:
-        mensaje = "no pasa"
+        min_edad = False    
+        if min_edad == False:
+            mensaje = "no pasa"
     return mensaje
    
 def clasificacion_pelicula():
