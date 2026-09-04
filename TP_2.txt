@@ -44,7 +44,7 @@ contenido del script es el siguiente:
     
     numero1 = 10
     numero2 = 5
-    resultado = numero1 * numero2
+    resultado = numero1 * numero2 (la cuenta se hace de castear str por eso se llega al resultado)
     print('El producto entre ' + str(numero1) + ' y ' + str(numero2) + ' da ' + str(resultado))
 
     Ejecute el código para verificar el funcionamiento del script, y luego analice
@@ -68,7 +68,7 @@ completo es [NOMBRE] [APELLIDO] y tengo [EDAD] años.”.
 nombre = "Felipe"
 apellido = "de San Aniceto"
 edad = "38"
-print("Mi nombre completo es", nombre, apellido "y tengo",)
+print("Mi nombre completo es", nombre, apellido "y tengo",edad)
 
 
 7. Cree un script llamado numero_favorito.py, y almacene su número favorito en
@@ -89,18 +89,24 @@ realizaron los programadores son:
 Programador A
     # almaceno cuántos alumnos asistieron a la clase de hoy
     alumnos_presentes = 35
+    
     # almaceno el total de inscriptos en la asignatura
     alumnos_inscriptos = 54
+    
     # calculo del porcentaje de alumnos presentes en la clase de hoy
     porcentaje_presentes = (alumnos_presentes * 100) / alumnos_inscriptos
+    
     # muestro el porcentaje calculado en pantalla
     print('Hoy asistió el ' + str(porcentaje_presentes) + ' porciento del alumnado.')
 
 Programador B
+    
     p = 35
     i = 54
     pp = (p * 100) / i
     print('Hoy asistió el ' + str(pp) + ' % del alumnado.')
+
+>--------------------------------------------------------------------------------------------------------------<
 
     Analice detenidamente ambas versiones, y luego responda:
     - ¿Ambas versiones resuelven el problema?.

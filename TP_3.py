@@ -3,16 +3,20 @@
 # la variable (la salida debería ser 10), y luego con el valor -10 (la salida debería ser 10 nuevamente).
 
 numero = int(-10)
+val_abso = abs(numero)
 print("El valor absoluto de ",numero, "es", abs(numero))
 print(f"El valor absoluto de |{numero}| es {abs(numero)}")
+print("El resultado del valor absoluto de el numero",numero,"es:",val_abso)
 
 # Cree un script que almacene su nombre de pila en una variable, y luego muestre en pantalla la cantidad de letras de ese nombre,
 #  con el mensaje “El nombre [NOMBRE] tiene [N] letras.”
 
 nombre = "Felipe"
+contador = len(nombre) #Otra forma es agregar una variable que cuente con la funcion len()
 
 print(f"El nombre {nombre} tiene {len(nombre)} letras")
 
+print("El nombre", nombre, "tiene", contador, "letras")
 
 # Cree un script que almacene, en dos variables, una base y un exponente, y
 # luego muestre en pantalla el resultado de elevar el número base a la potencia exponente.
@@ -46,7 +50,7 @@ print("area del rectangulo -->",area)
 
 a = 5
 b = 10
-numero_b = a #numero_b es una variable que almacena de forma temporal el valor de a
+numero_b = a #numero_b es una variable que almacena de forma temporal el valor de a (esto es una variable auxiliar)
 a = b # ahora a puede tomar el valor de b
 b = numero_b # y b puede tomar el valor que se almaceno de forma temporal en numero_b
 print(a,b) # se muestra en pantalla los valores intercambiados
