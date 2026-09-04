@@ -90,13 +90,37 @@ Usted tiene $XXX pesos argentinos, los cuales se convierten en:
 - R$XXX reales.
 - €XXX euros.
 
+La sintaxis básica de la funcion round es:
+
+
+round(número, ndigitos) n digitos representa la cantidad de digitos que se quiere mostrar con round
+
+
+
+
 '''
-ahorros = 1500000
+ahorros = 150
 precio_dolar = 1475
 precio_real = 14
 precio_euro = 69
 
 print(f"Usted tiene {ahorros} pesos argentinos, los cuales se convierten en: ")
 print(f"U${ahorros / precio_dolar} dolares")
-print(f"R${round(ahorros / precio_real)} reales")
-print(f"€${round(ahorros / precio_euro)} euros")
+print(f"R${round(ahorros / precio_real,3)} reales")
+print(f"€${round(ahorros / precio_euro,3)} euros")
+
+
+
+
+print("tambien se puede hacer con variables auxiliares:")
+
+cantidad_dolares = ahorros / precio_dolar
+cantidad_reales = ahorros / precio_real
+cantidad_euros =  ahorros / precio_euro
+
+print(f"Usted tiene {ahorros} pesos argentinos, los cuales se convierten en: ")
+print(f"U${round(cantidad_dolares,3)} dolares")
+print(f"R${round(cantidad_reales,3)} reales")
+print(f"€${round(cantidad_euros,3)} euros")
+
+#agregar una funcion que permita elegir la cantidad de digitos despues de la coma.
