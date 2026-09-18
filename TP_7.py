@@ -51,6 +51,7 @@
 #         print("Numero par --->",i)
 
 # print("######################################################################################################################################################")
+
 # for i in range(1,101):
 
 #     numero_par = i % 2
@@ -71,6 +72,7 @@
 
 
 # factorial = int(input("Ingresar un numero entero: "))
+# 
 # for j in range(1,factorial):
 
 #     factorial = factorial * j
@@ -99,26 +101,31 @@
 #         mensaje = "el numero es cero"
 #         print(mensaje) 
        
-# Cree un script que le solicite al usuario ingresar 10 números, y una vez ingresados, le muestre en pantalla cuál es el máximo, y en qué posición lo ingresó. 
+# 6 Cree un script que le solicite al usuario ingresar 10 números, y una vez ingresados, le muestre en pantalla cuál es el máximo, y en qué posición lo ingresó. 
 # Por ejemplo, si el usuario ingresa los números 2, 63, -3, 20, 55, 89, 7, 32, 9, y 33, se le debería mostrar el mensaje “El mayor número ingresado es 89, y lo
 # ingresaste en la posición 6”. NOTA: las posiciones posibles comienzan desde 1.
 
+# 7 Extienda el script del ejercicio anterior para que también informe el número mínimo ingresado, y su posición.
+
+posicion_max = 0
+posicion_min = 0
+num_max = 0
+num_min = 0
+
 for j in range(1, 11):
+    numero = int(input("Ingresar un numero: "))
+    
+    if numero > num_max:
+        num_max = numero
+        posicion_max = posicion_max + 1
+    if numero < num_min:
+        num_min = numero
+        posicion_min = posicion_min + 1
 
-    numero = int(input("Ingresar un numero entero: "))
+print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
 
-    positivo = numero > 0
-    negativo = numero < 0
 
-    if positivo:
-        mensaje = "el numero es positivo"
-        print(mensaje) 
-    elif negativo:
-        mensaje = "el numero es negativo"
-        print(mensaje) 
-    else:
-        mensaje = "el numero es cero"
-        print(mensaje) 
+
 
 
 
