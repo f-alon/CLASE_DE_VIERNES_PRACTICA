@@ -48,7 +48,7 @@
 
 #nota = int(input("Ingresar la nota del primer parcial (usar '-1' para salir): "))
 
-terminar = "-1"
+iniciar = True
 
 #hacer variable que acumule las notas sumandolas para despues poder sacar el promedio
 acumulador = 0
@@ -57,20 +57,20 @@ print("Acumulador --->",acumulador)
 contador = 0
 print("Contador --->",contador)
 
-while (terminar):
-
+while (iniciar):
+    
     nota = int(input("Ingresar la nota del primer parcial (usar '-1' para salir): "))
+    if nota != -1:
+        acumulador = acumulador + nota
+        print("Acumulador + nota --->",acumulador)
 
-    acumulador = acumulador + nota
-    print("Acumulador + nota --->",acumulador)
+        contador = contador + 1
+        print("Contador + 1 --->",contador)
 
-    contador = contador + 1
-    print("Contador + 1 --->",contador)
+        promedio = (acumulador / contador)
 
-    promedio = acumulador / contador
-
-    if nota == terminar:
-        terminar = False
+    elif nota == -1:
+        iniciar = False
 
         print("promedio de las notas ingresadas --->", promedio)
         print("--- TERMINADO ---")
