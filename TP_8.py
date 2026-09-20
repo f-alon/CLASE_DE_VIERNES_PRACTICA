@@ -48,31 +48,28 @@
 
 #nota = int(input("Ingresar la nota del primer parcial (usar '-1' para salir): "))
 
+#Esta variable va a iniciar el bucle
 iniciar = True
 
-#hacer variable que acumule las notas sumandolas para despues poder sacar el promedio
+#este acumulador va a ir guardando las notas
 acumulador = 0
-print("Acumulador --->",acumulador)
 
+# este contador va a ir contando la cantidad de notas ingresadas
 contador = 0
-print("Contador --->",contador)
 
 while (iniciar):
     
     nota = int(input("Ingresar la nota del primer parcial (usar '-1' para salir): "))
-    if nota != -1:
-        acumulador = acumulador + nota
-        print("Acumulador + nota --->",acumulador)
+    if nota != -1: #Si la nota ingresada no es -1
+        acumulador = acumulador + nota # la variable acumulador guarda el valor ingresado de nota y la va sumando por cada iteracion
+        contador = contador + 1 #contador va incrementando su valor en 1 por cada nota ingresada
+        
+    else: #bloque de condicion para que corte el bucle solamente cuando el -1 es ingresado y no se incluya en el promedio final
+        if nota == -1:
+            iniciar = False 
 
-        contador = contador + 1
-        print("Contador + 1 --->",contador)
-
-        promedio = (acumulador / contador)
-
-    elif nota == -1:
-        iniciar = False
-
-        print("promedio de las notas ingresadas --->", promedio)
+        promedio = (acumulador / contador)  #al final el promedio se calcula dividiendo el valor de acumulador por contador
+        print("Promedio de las notas ingresadas --->", promedio)
         print("--- TERMINADO ---")
 
         
