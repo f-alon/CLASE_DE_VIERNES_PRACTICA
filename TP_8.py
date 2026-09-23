@@ -87,24 +87,38 @@
 # “El número ingresado está fuera del rango permitido.”. Finalmente, cuando el usuario ingrese un dato válido, muestre el mensaje “[NÚMERO] es válido. Gracias!”.
 
 
-rango_valido = False
-dato_numerico = False
-rango_no_valido = False
+# rango_valido = False
+# dato_numerico = False
+# rango_no_valido = False
 
-while not(rango_valido) and not(dato_numerico):
-    numero = input("Ingresar un numero entre 1 y 100: ")
+# while not(rango_valido) and not(dato_numerico):
+#     numero = input("Ingresar un numero entre 1 y 100: ")
 
-    dato_numerico = numero.isdigit()
-    dato_no_numerico = numero.isalpha()
-    fuera_rango = rango_valido == False
+#     dato_numerico = numero.isdigit()
+#     dato_no_numerico = numero.isalpha()
+#     fuera_rango = rango_valido == False
 
-    if dato_numerico:
-        rango_valido = (int(numero) >= 1 and int(numero) <= 100)
-        if rango_valido:
-            mensaje = f" {numero} es válido. Gracias!"
-            print(mensaje)
-        elif fuera_rango:
-            print("Dato fuera de rango")    
+#     if dato_numerico:
+#         rango_valido = (int(numero) >= 1 and int(numero) <= 100)
+#         if rango_valido:
+#             mensaje = f" {numero} es válido. Gracias!"
+#             print(mensaje)
+#         elif fuera_rango:
+#             print("Dato fuera de rango")    
 
-    if dato_no_numerico: 
-        print("Dato no valido")            
+#     if dato_no_numerico: 
+#         print("Dato no valido")        
+
+
+#5. Si bien el While es útil cuando desconocemos la cantidad de veces que repetiremos un bloque de instrucciones, también puede ser utilizado en los mismos casos que es utilizado el For 
+# (aunque la inversa no es verdadera). Rehaga todos los ejercicios del Trabajo Práctico VII utilizando un While en lugar de un For.
+# 
+# 1. Cree un script para mostrar los primeros 100 números enteros positivos, comenzando desde el 1
+# 
+
+numero = 0
+contar = 0  
+while numero != 100:
+       numero = numero + 1
+       contar = contar + 1 
+       print(contar,"- Numero",numero)
