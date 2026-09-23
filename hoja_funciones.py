@@ -54,3 +54,14 @@ def circunscrito(l1,l2,l3,area_total):
     radio_circ = (l1+l2+l3)/4*area_total
     return radio_circ
 
+
+
+
+
+#estructura de desicion que calcula la distancia entre el numero ingresado y cero
+if numero < 0: 
+    valor_absoluto = -numero 
+    print(valor_absoluto) 
+else:
+     valor_absoluto = numero
+     print(valor_absoluto)

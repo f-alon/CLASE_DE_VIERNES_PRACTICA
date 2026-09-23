@@ -139,16 +139,45 @@
 
 # 3 Cree un script para calcular el resultado de sumar los números desde el 75 al 150 = 8550
 
-sumatoria = 0
-inicio = False
-fin = False
+# sumatoria = 0
+# inicio = False
+# fin = False
 
-while not(inicio) and not(fin):
-    inicio = 75
-    fin = 150
-    cantidad = 76
-    sumatoria = (cantidad * (inicio + fin)) // 2
-    print( "La sumatoria desde el 75 al 150 es:",sumatoria)
+# while not(inicio) and not(fin):
+#     inicio = 75
+#     fin = 150
+#     cantidad = 76
+#     sumatoria = (cantidad * (inicio + fin)) // 2
+#     print( "La sumatoria desde el 75 al 150 es:",sumatoria)
 
+# 4 Cree un script que le solicite al usuario ingresar un número entero, y muestre en pantalla el factorial de dicho número. NOTA: puede obviar la validación en este ejercicio, 
+# pero recuerde que la función range no incluye al valor máximo enviado como parámetro. factorial de n = n! = 1 * 2 * 3 * … * (n - 1) * n
+
+
+inicio = 1 
+factorial = 0
+while factorial 
+numero = int(input("Ingresar un numero entero: "))
+#estructura de desicion que calcula la distancia entre el numero ingresado y cero
+if numero < 0: 
+    valor_absoluto = -numero 
+    print(valor_absoluto) 
+else:
+     valor_absoluto = numero
+     print(valor_absoluto)
+
+
+cantidad_numeros = cantidad_numeros + 1
+
+for j in range(1,factorial):
+
+    factorial = numero * j
+
+print( "factorial--->:",factorial)
+
+
+
+
+x = int(input("ingresar un numero: "))
 
 
