@@ -60,11 +60,11 @@
 
 # 3 Cree un script para calcular el resultado de sumar los números desde el 75 al 150
 
-# sumatoria = 0
-# for j in range(75,151):
-#     sumatoria = sumatoria + j
+sumatoria = 0
+for j in range(75,151):
+    sumatoria = sumatoria + j
 
-# print( "La sumatoria desde el 75 al 150 es:",sumatoria)
+print( "La sumatoria desde el 75 al 150 es:",sumatoria)
 
     
 # 4 Cree un script que le solicite al usuario ingresar un número entero, y muestre en pantalla el factorial de dicho número. NOTA: puede obviar la validación en este ejercicio, 

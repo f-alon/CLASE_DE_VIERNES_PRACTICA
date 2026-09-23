@@ -116,9 +116,39 @@
 # 1. Cree un script para mostrar los primeros 100 números enteros positivos, comenzando desde el 1
 # 
 
-numero = 0
-contar = 0  
-while numero != 100:
-       numero = numero + 1
-       contar = contar + 1 
-       print(contar,"- Numero",numero)
+# numero = 0
+# contar = 0  
+# while numero != 100:
+#        numero = numero + 1
+#        contar = contar + 1 
+#        print(contar,"- Numero",numero)
+
+
+# 2 Modifique el script del ejercicio anterior para que se muestren sólo los números pares. Para saber si un número es par, utilice el operador de módulo (%).
+
+# numero = 0
+# contar = 0
+# while numero != 100:        
+#     numero = numero + 1
+#     numero_par = numero % 2
+
+#     if numero_par == 0:
+#         print("Numero par --->",numero)
+#     else:
+#         print("Numero impar",numero)
+
+# 3 Cree un script para calcular el resultado de sumar los números desde el 75 al 150 = 8550
+
+sumatoria = 0
+inicio = False
+fin = False
+
+while not(inicio) and not(fin):
+    inicio = 75
+    fin = 150
+    cantidad = 76
+    sumatoria = (cantidad * (inicio + fin)) // 2
+    print( "La sumatoria desde el 75 al 150 es:",sumatoria)
+
+
+
