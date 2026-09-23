@@ -5,9 +5,9 @@
 # 5 Cree un script que le solicite al usuario ingresar 10 números enteros, y por cada uno, informarle si el mismo es positivo, negativo, o cero.
 
 
-# cantidad = 1
+# cantidad = 0
 
-# while cantidad != 11:
+# while cantidad != 10:
 
 #     numero = int(input("Ingresar un numero entero: "))
 #     cantidad = cantidad + 1
@@ -86,20 +86,25 @@
 # hasta que el usuario provea un dato válido. Cada vez que detecte un error de validación, informele al usuario cuál fue el error, con los mensajes “El dato ingresado no es numérico.”, o 
 # “El número ingresado está fuera del rango permitido.”. Finalmente, cuando el usuario ingrese un dato válido, muestre el mensaje “[NÚMERO] es válido. Gracias!”.
 
-numero = 0
-rango_valido = (numero >=1 and numero <= 100)
 
-dato_numerico = str(numero).isdigit()
+rango_valido = False
+dato_numerico = False
+rango_no_valido = False
 
-while (rango_valido) or (dato_numerico):
-
+while not(rango_valido) and not(dato_numerico):
     numero = input("Ingresar un numero entre 1 y 100: ")
-    mensaje = f"[{numero}] es válido. Gracias!"
 
-    if not(rango_valido) or not(dato_numerico):
-        mensaje = "El número ingresado está fuera del rango permitido o no es un dato numerico."
+    dato_numerico = numero.isdigit()
+    dato_no_numerico = numero.isalpha()
+    fuera_rango = rango_valido == False
 
-    print(mensaje)
+    if dato_numerico:
+        rango_valido = (int(numero) >= 1 and int(numero) <= 100)
+        if rango_valido:
+            mensaje = f" {numero} es válido. Gracias!"
+            print(mensaje)
+        elif fuera_rango:
+            print("Dato fuera de rango")    
 
-
-   
+    if dato_no_numerico: 
+        print("Dato no valido")            
