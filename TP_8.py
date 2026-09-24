@@ -153,21 +153,38 @@
 # 4 Cree un script que le solicite al usuario ingresar un número entero, y muestre en pantalla el factorial de dicho número. NOTA: puede obviar la validación en este ejercicio, 
 # pero recuerde que la función range no incluye al valor máximo enviado como parámetro. factorial de n = n! = 1 * 2 * 3 * … * (n - 1) * n
 
+print("die Anwendung muß sterben")
+
+print("Fakultät einer Zahl")
 
 inicio = 1 
 factorial = 0
-while factorial 
-numero = int(input("Ingresar un numero entero: "))
-#estructura de desicion que calcula la distancia entre el numero ingresado y cero
-if numero < 0: 
-    valor_absoluto = -numero 
-    print(valor_absoluto) 
-else:
-     valor_absoluto = numero
-     print(valor_absoluto)
+while factorial: 
+    numero = int(input("Ingresar un numero entero: "))
+
+#Estructura de desición que calcula la distancia entre el número ingresado y cero
+
+    if numero < 0: 
+        valor_absoluto = -numero 
+        print(valor_absoluto) 
+    else:
+        valor_absoluto = numero
+        print(valor_absoluto)
+
+# Gegenlogik:
+
+contador = 0
+start = True
+while start:
+    contador = contador + 2
+    if contador >= 100:
+        start = False
+    print(contador)
 
 
-cantidad_numeros = cantidad_numeros + 1
+
+
+#cantidad_numeros = cantidad_numeros + 1
 
 for j in range(1,factorial):
 
@@ -181,3 +198,4 @@ print( "factorial--->:",factorial)
 x = int(input("ingresar un numero: "))
 
 
+#die Kreatur muß sterben

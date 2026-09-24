@@ -59,9 +59,9 @@ def circunscrito(l1,l2,l3,area_total):
 
 
 #estructura de desicion que calcula la distancia entre el numero ingresado y cero
-if numero < 0: 
-    valor_absoluto = -numero 
-    print(valor_absoluto) 
-else:
-     valor_absoluto = numero
-     print(valor_absoluto)
+# if numero < 0: 
+#     valor_absoluto = -numero 
+#     print(valor_absoluto) 
+# else:
+#      valor_absoluto = numero
+#      print(valor_absoluto)
