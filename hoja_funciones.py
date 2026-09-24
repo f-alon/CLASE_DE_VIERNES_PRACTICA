@@ -65,3 +65,16 @@ def circunscrito(l1,l2,l3,area_total):
 # else:
 #      valor_absoluto = numero
 #      print(valor_absoluto)
+
+
+#este contador -(GENERA LA TABLA DE MULTIPLICAR DEL NUMERO QUE SE INGRESE)-
+
+    # contador = 0
+    # start = True
+    # while start:
+    #     contador = contador + 1
+    #     if contador == 100:
+    #         start = False
+        
+    #     factorial = numero * contador
+    #     print("esto es contador --->",contador, "esto es Factorial --->", factorial)
