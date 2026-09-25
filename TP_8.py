@@ -160,7 +160,7 @@ print("Fakultät einer Zahl")
 inicio = 1 
 factorial = False
 while not(factorial): 
-    numero = int(input("Ingresar un numero entero: "))
+    numero = int(input("Ingresar un numero entero: ")) #este numero tiene que ser el ultimo de la secuencia
 
 #Estructura de desición que calcula la distancia entre el número ingresado y cero
 

@@ -60,24 +60,24 @@
 
 # 3 Cree un script para calcular el resultado de sumar los números desde el 75 al 150
 
-sumatoria = 0
-for j in range(75,151):
-    sumatoria = sumatoria + j
+# sumatoria = 0
+# for j in range(75,151):
+#     sumatoria = sumatoria + j
 
-print( "La sumatoria desde el 75 al 150 es:",sumatoria)
+# print( "La sumatoria desde el 75 al 150 es:",sumatoria)
 
     
 # 4 Cree un script que le solicite al usuario ingresar un número entero, y muestre en pantalla el factorial de dicho número. NOTA: puede obviar la validación en este ejercicio, 
 # pero recuerde que la función range no incluye al valor máximo enviado como parámetro. factorial de n = n! = 1 * 2 * 3 * … * (n - 1) * n
 
 
-# factorial = int(input("Ingresar un numero entero: "))
-# 
-# for j in range(1,factorial):
+factorial = int(input("Ingresar un numero entero: "))
 
-#     factorial = factorial * j
+for j in range(1,factorial):
 
-# print( "factorial--->:",factorial)
+    factorial = factorial * j
+
+print( "factorial--->:",factorial)
 
 
 # 5 Cree un script que le solicite al usuario ingresar 10 números enteros, y por cada uno, informarle si el mismo es positivo, negativo, o cero.
@@ -107,22 +107,22 @@ print( "La sumatoria desde el 75 al 150 es:",sumatoria)
 
 # 7 Extienda el script del ejercicio anterior para que también informe el número mínimo ingresado, y su posición.
 
-posicion_max = 0
-posicion_min = 0
-num_max = 0
-num_min = 0
+# posicion_max = 0
+# posicion_min = 0
+# num_max = 0
+# num_min = 0
 
-for j in range(1, 11):
-    numero = int(input("Ingresar un numero: "))
+# for j in range(1, 11):
+#     numero = int(input("Ingresar un numero: "))
     
-    if numero > num_max:
-        num_max = numero
-        posicion_max = posicion_max + 1
-    if numero < num_min:
-        num_min = numero
-        posicion_min = posicion_min + 1
+#     if numero > num_max:
+#         num_max = numero
+#         posicion_max = posicion_max + 1
+#     if numero < num_min:
+#         num_min = numero
+#         posicion_min = posicion_min + 1
 
-print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
+# print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
 
 
 
