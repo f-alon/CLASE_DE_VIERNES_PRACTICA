@@ -153,12 +153,9 @@
 # 4 Cree un script que le solicite al usuario ingresar un número entero, y muestre en pantalla el factorial de dicho número. NOTA: puede obviar la validación en este ejercicio, 
 # pero recuerde que la función range no incluye al valor máximo enviado como parámetro. factorial de n = n! = 1 * 2 * 3 * … * (n - 1) * n
 #tengo que simular la estructura de repeticion for, para lograr multiplicar 1*2*3*4*5*6*...(n-1)*n
-print("die Anwendung muß sterben")
-
-print("Fakultät einer Zahl")
-
 inicio = 1 
 factorial = False
+
 while not(factorial): 
     numero = int(input("Ingresar un numero entero: ")) #este numero tiene que ser el ultimo de la secuencia
 
@@ -171,8 +168,8 @@ while not(factorial):
         valor_absoluto = numero
         print(valor_absoluto)
 
-# Gegenlogik:
-#este contador -(GENERA LA TABLA DE MULTIPLICAR DEL NUMERO QUE SE INGRESE)-
+# Logica del contador:
+# este contador -(GENERA LA TABLA DE MULTIPLICAR DEL NUMERO QUE SE INGRESE)-
 
     contador = 0
     start = True
