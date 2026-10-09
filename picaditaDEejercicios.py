@@ -1,6 +1,6 @@
 ############################################################################################################################################################################################################
 
-# 9. Un cliente ha solicitado un programa que le permita ingresar cuántas cuadras caminó con su perro durante una cantidad de días determinada por el mismo.
+# 1. Un cliente ha solicitado un programa que le permita ingresar cuántas cuadras caminó con su perro durante una cantidad de días determinada por el mismo.
 # 
 # El programa debe retornar al finalizar:
 # ● La cantidad total de cuadras caminadas.
@@ -16,7 +16,7 @@
 #       "El perro necesita caminar más"
 ###########################################################################################################################################
 
-# 6. Crea un script que le solicite al usuario ingresar 10 números, y una vez ingresados,
+# 2. Crea un script que le solicite al usuario ingresar 10 números, y una vez ingresados,
 # le muestre en pantalla cuál es el máximo, y en qué posición lo ingresó. Por
 # ejemplo, si el usuario ingresa los números 2, 63, -3, 20, 55, 89, 7, 32, 9, y 33, se le
 # debería mostrar el mensaje “El mayor número ingresado es 89, y lo ingresaste
@@ -24,7 +24,7 @@
 
 ############################################################################################################################################################################################################
 
-# 1 Escriba un codigo en python que permita cargar la cantidad de autos vendidos por mes, se carga "numero de mes" "año" y "cantidad de autos vendidos"
+# 3. Escriba un codigo en python que permita cargar la cantidad de autos vendidos por mes, se carga "numero de mes" "año" y "cantidad de autos vendidos"
 # la carga finaliza cuando se ingrese el valor (0) para el dato correspondiente al año. 
 # Se deberá validar que el mes sea numerico y este entre 1 y 12, los demas datos no es necesario validarlos. 
 # Al finalizar la carga se debera informar el total de errores cometidos por el operador.
