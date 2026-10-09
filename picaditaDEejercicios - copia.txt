@@ -14,15 +14,6 @@
     
 # mostrar:
 #       "El perro necesita caminar más"
-
-
-
-
-
-
-
-
-
 ###########################################################################################################################################
 
 # 2. Crea un script que le solicite al usuario ingresar 10 números, y una vez ingresados,
