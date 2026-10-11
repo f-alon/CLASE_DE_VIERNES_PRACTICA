@@ -71,13 +71,13 @@
 # pero recuerde que la función range no incluye al valor máximo enviado como parámetro. factorial de n = n! = 1 * 2 * 3 * … * (n - 1) * n
 
 
-factorial = int(input("Ingresar un numero entero: "))
+# factorial = int(input("Ingresar un numero entero: "))
 
-for j in range(1,factorial):
+# for j in range(1,factorial):
 
-    factorial = factorial * j
+#     factorial = factorial * j
 
-print( "factorial--->:",factorial)
+# print( "factorial--->:",factorial)
 
 
 # 5 Cree un script que le solicite al usuario ingresar 10 números enteros, y por cada uno, informarle si el mismo es positivo, negativo, o cero.
@@ -125,7 +125,8 @@ print( "factorial--->:",factorial)
 # print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
 
 
-
+# 1. Crea un script que le pida al usuario ingresar palabras, una a una, hasta que el usuario ingrese la palabra “parar”. A medida que se van ingresando las palabras, el programa simplemente debe mostrarlas en 
+# pantalla. Al detectar la palabra para detenerse, debe mostrar el mensaje “--- TERMINADO ---”
 
 
 
