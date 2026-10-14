@@ -107,22 +107,22 @@
 
 # 7 Extienda el script del ejercicio anterior para que también informe el número mínimo ingresado, y su posición.
 
-# posicion_max = 0
-# posicion_min = 0
-# num_max = 0
-# num_min = 0
+posicion_max = 0
+posicion_min = 0
+num_max = 0
+num_min = 0
 
-# for j in range(1, 11):
-#     numero = int(input("Ingresar un numero: "))
+for j in range(1, 11):
+    numero = int(input("Ingresar un numero: "))
     
-#     if numero > num_max:
-#         num_max = numero
-#         posicion_max = posicion_max + 1
-#     if numero < num_min:
-#         num_min = numero
-#         posicion_min = posicion_min + 1
+    if numero > num_max:
+        num_max = numero
+        posicion_max = j
+    if numero < num_min:
+        num_min = numero
+        posicion_min = j
 
-# print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
+print("numero maximo --->",num_max,"posicion --->",posicion_max, "numero minimo --->", num_min, "posicion --->", posicion_min )
 
 
 # 1. Crea un script que le pida al usuario ingresar palabras, una a una, hasta que el usuario ingrese la palabra “parar”. A medida que se van ingresando las palabras, el programa simplemente debe mostrarlas en 
